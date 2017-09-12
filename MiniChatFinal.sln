@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniChatFinal", "MiniChatFinal\MiniChatFinal.csproj", "{9733587B-A192-44CD-A06D-236FEA6BBF81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniChatClientFinal", "MiniChatClientFinal\MiniChatClientFinal.csproj", "{D73F4F38-C089-43C6-ACDE-9D67252322EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniChatFinalTests", "MiniChatFinalTests\MiniChatFinalTests.csproj", "{10ADF250-5797-40EA-91E7-A6740E166242}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9733587B-A192-44CD-A06D-236FEA6BBF81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9733587B-A192-44CD-A06D-236FEA6BBF81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9733587B-A192-44CD-A06D-236FEA6BBF81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D73F4F38-C089-43C6-ACDE-9D67252322EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D73F4F38-C089-43C6-ACDE-9D67252322EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D73F4F38-C089-43C6-ACDE-9D67252322EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D73F4F38-C089-43C6-ACDE-9D67252322EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10ADF250-5797-40EA-91E7-A6740E166242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10ADF250-5797-40EA-91E7-A6740E166242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10ADF250-5797-40EA-91E7-A6740E166242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10ADF250-5797-40EA-91E7-A6740E166242}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

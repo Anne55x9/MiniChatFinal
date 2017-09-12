@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9733587B-A192-44CD-A06D-236FEA6BBF81}</ProjectGuid>
+    <ProjectGuid>{D73F4F38-C089-43C6-ACDE-9D67252322EE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MiniChatFinal</RootNamespace>
-    <AssemblyName>MiniChatFinal</AssemblyName>
+    <RootNamespace>MiniChatClientFinal</RootNamespace>
+    <AssemblyName>MiniChatClientFinal</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Server.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
